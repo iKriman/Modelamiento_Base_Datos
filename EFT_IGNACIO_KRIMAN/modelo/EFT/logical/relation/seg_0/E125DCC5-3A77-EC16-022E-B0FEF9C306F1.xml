@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TEC_MAN" directorySegmentName="seg_0" id="E125DCC5-3A77-EC16-022E-B0FEF9C306F1">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-08 05:01:30 UTC</createdTime>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<sourcePk>465EF369-6C5E-E48C-C07E-4D0A1239A37F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5EA7C518-43D7-E87B-7108-4EF188A08F65</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9FDED8B6-BF90-76E1-E924-0E344D8EE7D2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

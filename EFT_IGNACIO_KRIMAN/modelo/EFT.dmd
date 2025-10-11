@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="EFT" id="139D837D-9079-D4D9-FFC5-BC8DC9C489FA" version="3.5">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:32:59 UTC</createdTime>
+<ownerDesignName>EFT</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>139D837D-9079-D4D9-FFC5-BC8DC9C489FA</designId>
+</OSDM_Design>

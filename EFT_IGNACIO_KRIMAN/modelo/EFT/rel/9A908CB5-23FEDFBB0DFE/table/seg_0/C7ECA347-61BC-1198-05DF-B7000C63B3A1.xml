@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C7ECA347-61BC-1198-05DF-B7000C63B3A1" name="PLANTA">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>1313085D-1A9C-FA04-49BF-89E048774AB1</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_planta" id="E33BCB8A-E384-5B7D-AC6A-ADB339FF5C92">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>1E5E4DD4-01D2-EA67-BB22-D686CE0ABB56</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="BFB6024A-948E-0AD7-703A-64489F212C37">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>EA9CFA66-E21B-1AFA-4E75-0CFFC78155A2</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="9C2B325C-5BD7-BE5B-922F-9D4E6B9A0C67">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>2D5AFFEC-75BB-F32F-002E-15228FA0B160</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_comuna" id="2FBD27B8-D2DC-10FE-D5B8-6626BCF1C30B">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>1CACD87D-BB50-328B-ADF6-DF4BFC7DF027</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5A0E5C1-4855-DCD8-BC8F-92EF6114551C" referredColumn="D95D82E3-7BAA-E149-1E93-6F337206190F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26B3E567-A07D-AB0F-E627-04E0F56FB512" name="PLANTA_PK">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>8967B05A-805F-9FCB-4FF2-93382A04B9FE</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E33BCB8A-E384-5B7D-AC6A-ADB339FF5C92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82D7EEB2-0B44-D851-0EB2-2C7E26D08728" name="PLA_COM_FK">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>63C94B2C-1909-E790-43E9-EB8C55073B38</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FBD27B8-D2DC-10FE-D5B8-6626BCF1C30B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

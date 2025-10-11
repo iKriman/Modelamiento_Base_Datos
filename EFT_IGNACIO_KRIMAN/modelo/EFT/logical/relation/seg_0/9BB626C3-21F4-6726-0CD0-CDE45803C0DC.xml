@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TIP_MAQ" directorySegmentName="seg_0" id="9BB626C3-21F4-6726-0CD0-CDE45803C0DC">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-08 04:28:26 UTC</createdTime>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<sourcePk>25106B65-7D21-0B41-527B-2249868312AD</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D8BABAC2-1D05-E89D-518F-914971A27DBC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>13386A43-7731-6307-F742-ECDB83BEE8BA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

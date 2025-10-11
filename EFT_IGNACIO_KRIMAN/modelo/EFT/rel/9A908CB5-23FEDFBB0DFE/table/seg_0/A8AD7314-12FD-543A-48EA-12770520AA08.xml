@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A8AD7314-12FD-543A-48EA-12770520AA08" name="TIPO_MAQUINA">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>D8BABAC2-1D05-E89D-518F-914971A27DBC</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tipo" id="D3F75308-7673-17FF-140D-B13183E2AD8B">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>722720DB-1013-A659-6AFC-CD5238BEEA07</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_tipo" id="C808F57A-0833-902E-2C4E-85EE94C5731B">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>0987AE06-D3C3-EE7E-A1F6-F95D06EC5A3F</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D9516C27-9108-0B71-8685-03BB2DD74B01" name="TIPO_MAQUINA_PK">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>25106B65-7D21-0B41-527B-2249868312AD</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3F75308-7673-17FF-140D-B13183E2AD8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

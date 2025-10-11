@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2BD0443C-9364-6BDA-6155-704E603EB918" name="MANTENCION">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>9FDED8B6-BF90-76E1-E924-0E344D8EE7D2</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_mantencion" id="8F8FD525-ECE7-4726-BDBC-DAB15FACF0E2">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>79840C77-BC7D-A859-2D6C-D0DB5ACF1602</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_prog" id="AF659D1A-170F-62C1-8FD7-315C81F0022C">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[-- fecha programada]]></commentInRDBMS>
+<generatorID>0368A55A-7482-B0BC-5767-AAE087DDF8F2</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_ejec" id="AC77A732-D98A-D2E6-7A8A-D428B3AA5A27">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[-- fecha ejecucion  si ya fue realizada]]></commentInRDBMS>
+<generatorID>A0719D15-0449-FD76-F586-F155107867DE</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="F5741E76-FC1A-EBAB-9638-09247BEB511A">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>04210201-C8BA-1DC9-5C0F-1ABB9782E266</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_tec" id="F1BAD10C-767D-9C0D-A706-CBE036387711">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>45BBB4B5-BE51-89E8-E24D-B657EC26C590</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_maquina" id="C38B78ED-B351-956B-F129-1E4914433AF2">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>2BACCA2D-33F6-7C59-24F9-A5CFBFB6F1F4</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F8AB105-7E5C-9FB6-8144-DDE5F2F0DB82" referredColumn="B4EC8330-DE80-3035-868C-1E932BCA19B2"/>
+</associations>
+</Column>
+<Column name="id_empleado" id="39FCA4FB-92A6-42A1-559A-D1B56C8BD0AC">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 16:08:11 UTC</createdTime>
+<generatorID>67D44DB1-04E1-77C5-C834-89230F8F7A3B</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D91CE62-BED2-3721-C511-80CDC22D3D38" referredColumn="10CEDDB4-8E37-B0E8-91A3-289D3C5DD627"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC23D91E-A181-D3A9-DA3D-7D1CE6E9AC9B" name="MANTENCION_PK">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>DFD0769A-A2F3-F2E4-4178-4716B98E1D66</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F8FD525-ECE7-4726-BDBC-DAB15FACF0E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="827DCF88-E73A-F64B-D655-6D1BB9514E0B" name="MAN_MAQ_FK">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>9BD32F2A-2D15-15AC-3150-776158106FF0</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C38B78ED-B351-956B-F129-1E4914433AF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67C3915E-EB27-C984-EE15-A2D3F61150ED" name="MAN_TEC_MAN_FK">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>E125DCC5-3A77-EC16-022E-B0FEF9C306F1</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39FCA4FB-92A6-42A1-559A-D1B56C8BD0AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

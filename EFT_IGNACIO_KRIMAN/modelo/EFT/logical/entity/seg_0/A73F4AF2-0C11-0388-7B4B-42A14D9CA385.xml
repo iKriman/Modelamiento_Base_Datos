@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A73F4AF2-0C11-0388-7B4B-42A14D9CA385" name="JEFE_TURNO">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:34:00 UTC</createdTime>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="area_Resp" id="E0389BBE-D423-1096-0D8B-5BB61F0B9C9B">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:39:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[-- area de responosabilidad]]></commentInRDBMS>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="operarios_Max" id="6C75086F-A9FC-5C7C-D61E-015890EFD7AC">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:39:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[--  numero maximo de operarios a coordinar por turno]]></commentInRDBMS>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_empleado" id="C942D036-2D2A-622B-7E7C-AF2AA3876201">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-08 05:01:59 UTC</createdTime>
+<generatorID>C9382805-BE15-39F8-BCE4-18998DF493C2</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<referedAttribute>12CB9935-9369-8B08-6406-73D1DF872769</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7DE4BA07-4BD3-1D75-D646-4DD758299454" name="JEFE_TURNO PK">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:39:15 UTC</createdTime>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C942D036-2D2A-622B-7E7C-AF2AA3876201</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

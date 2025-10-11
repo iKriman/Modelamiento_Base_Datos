@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A29340C6-E89D-E796-5E63-2C1265845D2A" containerWithKeyObject="A5D889EF-2BA9-A7C6-2982-BA4781E4D5DC" localFKIndex="F912EFE8-88D0-656A-50A8-EC367463FA0F" name="EMP_SAL_FK">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>71EE954F-FF7A-EB7F-A932-057A9A262F1E</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<referredTableLongName>SALUD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>96227D99-B6DC-BD0B-653F-D3FCC4AAA450</referredTableID>
+<keyObject>4A117528-EA2F-5A50-2939-375C27E3B50C</keyObject>
+<referredKeyID>4A117528-EA2F-5A50-2939-375C27E3B50C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_salud</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

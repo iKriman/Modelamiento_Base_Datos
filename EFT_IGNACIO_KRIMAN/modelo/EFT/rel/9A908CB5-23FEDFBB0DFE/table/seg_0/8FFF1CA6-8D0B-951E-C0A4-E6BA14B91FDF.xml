@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8FFF1CA6-8D0B-951E-C0A4-E6BA14B91FDF" name="OPERARIO">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>22575FB2-D588-960C-6D28-6386A171CE80</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="categoria" id="EFACCCAA-F82C-3C5C-5C75-8831262C61CB">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[-- categoría de proceso en la que trabajan: caliente, frío, inspección]]></commentInRDBMS>
+<generatorID>81F9996D-A56E-3848-2A55-5079E7C45429</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="certificacion" id="7A558017-76F0-6D86-ABC2-02E708B0CE2E">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[-- si es que aplica]]></commentInRDBMS>
+<generatorID>6B65920C-32EC-4721-5314-99689DB8B2F2</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horas_turno" id="01D6A446-8B33-3070-A0B9-560AE71D9E23">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[-- por defecto 8 horas por turno]]></commentInRDBMS>
+<generatorID>DF6FF2F1-17EC-1EA2-F7A6-D1C405AD2E15</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_empleado" id="C8CA36A5-13A1-E0BC-660C-7DE16C1CE7E0">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>8A092211-B976-59C8-2B19-43DE0E540468</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="657B9ED1-8D8A-B138-6177-D3AEAC699161" referredColumn="181D9E20-2525-C112-6D7F-D65E23D27AAE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="14A75B2B-3FC7-6649-5E8B-11F69427C256" name="OPERARIO_PK">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>03311FBF-CCA7-C165-86A2-8CB946D31638</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8CA36A5-13A1-E0BC-660C-7DE16C1CE7E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6A6D828-7EA1-08AB-AC20-2D66A31F76EA" name="OPERARIO__IDX">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<ownerDesignName>EFT</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>806D2DDE-1A49-28EE-8F61-EADD485C8CDC</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="C8CA36A5-13A1-E0BC-660C-7DE16C1CE7E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="420E1A1C-B538-463D-5A87-644273822C7C" name="OPE_EMP_FK">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>806D2DDE-1A49-28EE-8F61-EADD485C8CDC</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8CA36A5-13A1-E0BC-660C-7DE16C1CE7E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

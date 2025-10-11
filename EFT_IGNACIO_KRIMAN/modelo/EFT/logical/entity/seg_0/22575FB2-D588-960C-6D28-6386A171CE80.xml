@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="22575FB2-D588-960C-6D28-6386A171CE80" name="OPERARIO">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:34:06 UTC</createdTime>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="categoria" id="81F9996D-A56E-3848-2A55-5079E7C45429">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:42:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[-- categoría de proceso en la que trabajan: caliente, frío, inspección]]></commentInRDBMS>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="certificacion" id="6B65920C-32EC-4721-5314-99689DB8B2F2">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:42:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[-- si es que aplica]]></commentInRDBMS>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horas_turno" id="DF6FF2F1-17EC-1EA2-F7A6-D1C405AD2E15">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:43:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[-- por defecto 8 horas por turno]]></commentInRDBMS>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_empleado" id="8A092211-B976-59C8-2B19-43DE0E540468">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-08 05:02:20 UTC</createdTime>
+<generatorID>806D2DDE-1A49-28EE-8F61-EADD485C8CDC</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<referedAttribute>12CB9935-9369-8B08-6406-73D1DF872769</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="03311FBF-CCA7-C165-86A2-8CB946D31638" name="OPERARIO PK">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:41:45 UTC</createdTime>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8A092211-B976-59C8-2B19-43DE0E540468</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

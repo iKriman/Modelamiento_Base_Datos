@@ -1,0 +1,193 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FE5640F6-5BBC-F66D-58B6-58E9CFD1168A" name="EMPLEADO">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:35:07 UTC</createdTime>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_empleado" id="12CB9935-9369-8B08-6406-73D1DF872769">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:35:15 UTC</createdTime>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="68D0376D-7894-5E32-3B13-B4E4BCF028F9">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:35:25 UTC</createdTime>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombres" id="0BB74EA4-AA2E-BDA6-A02C-A94ECF041158">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:35:43 UTC</createdTime>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apePat" id="1B098D2A-5677-1161-FFB5-36E74913242F">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:35:57 UTC</createdTime>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apeMat" id="D6766262-E94E-7A89-EC04-2843C6258993">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:36:18 UTC</createdTime>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contratacion" id="8C384BA3-9DC8-8086-D127-B8520215CDD9">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:36:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[-- fecha de inicio de actividades]]></commentInRDBMS>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sueldo_base" id="E641BC27-A551-954B-9350-934C0415D980">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:36:49 UTC</createdTime>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="activo" id="3E6ECCBB-5B80-E342-090E-90AA40CBE7C1">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:37:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[--  estado activo (S/N) by default S]]></commentInRDBMS>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_planta" id="F49E6115-DFB6-3B6D-F575-F69B3841F3E3">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-08 04:31:11 UTC</createdTime>
+<generatorID>DCE867DA-CBD6-75B8-C266-53800F397EB5</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<referedAttribute>1E5E4DD4-01D2-EA67-BB22-D686CE0ABB56</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_afp" id="D22706AB-F305-8FEB-84F3-2754CC265159">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-08 05:05:47 UTC</createdTime>
+<generatorID>70CA06E9-67A4-446E-6529-2818DA9B0C2D</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<referedAttribute>8A50D55C-81DD-DDB5-6961-7F13A282A36A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_salud" id="B6164877-CB17-A1C9-7ADD-7039A2353ED8">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-08 05:06:42 UTC</createdTime>
+<generatorID>71EE954F-FF7A-EB7F-A932-057A9A262F1E</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<referedAttribute>CA9C0587-3EA6-50A7-32A6-D76AB3BC7BC6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_jefe" id="9F9BAFCD-5387-ACE2-3BCA-8480B3C4D832">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 16:02:23 UTC</createdTime>
+<generatorID>8DBCA8F7-ED35-F658-4C4C-32ED5E0988D4</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>12CB9935-9369-8B08-6406-73D1DF872769</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8A6BF42B-8BC9-CB69-7E43-3727A0876249" name="TRABAJADOR PK">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:35:24 UTC</createdTime>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>12CB9935-9369-8B08-6406-73D1DF872769</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

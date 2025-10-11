@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CC7D414A-99FC-A411-ED9C-AFE7E78A6D31" containerWithKeyObject="46A7378A-27CB-2C63-125B-6646B0EE2CC7" localFKIndex="28D6B850-8B48-D300-D9DA-A756A515D555" name="MAQ_TIP_MAQ_FK">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>9BB626C3-21F4-6726-0CD0-CDE45803C0DC</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<referredTableLongName>TIPO_MAQUINA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A8AD7314-12FD-543A-48EA-12770520AA08</referredTableID>
+<keyObject>D9516C27-9108-0B71-8685-03BB2DD74B01</keyObject>
+<referredKeyID>D9516C27-9108-0B71-8685-03BB2DD74B01</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tipo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

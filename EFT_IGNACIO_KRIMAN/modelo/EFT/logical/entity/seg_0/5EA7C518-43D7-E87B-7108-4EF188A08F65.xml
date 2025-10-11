@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5EA7C518-43D7-E87B-7108-4EF188A08F65" name="TEC_MANTENCION">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:34:10 UTC</createdTime>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="especialidad" id="672065F1-D2C6-3726-7577-2D2ADFD79FB0">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:45:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[por ejemplo: eléctrica, mecánica, instrumentación]]></commentInRDBMS>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="certificacion" id="A36A8ACE-1E7C-420B-4288-35F9CBACF3E8">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:46:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[-- si es que aplica]]></commentInRDBMS>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tiem_respuesta" id="AD6F01DC-1245-5C8A-C333-1720DEB02FC7">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:46:47 UTC</createdTime>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_empleado" id="F342EF49-816E-9171-C63B-D3401782FA4A">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-08 05:01:23 UTC</createdTime>
+<generatorID>42627784-0A15-6D48-04B4-B757A1DB2AA6</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<referedAttribute>12CB9935-9369-8B08-6406-73D1DF872769</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="465EF369-6C5E-E48C-C07E-4D0A1239A37F" name="TENC_MANTENCION PK">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:45:57 UTC</createdTime>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F342EF49-816E-9171-C63B-D3401782FA4A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

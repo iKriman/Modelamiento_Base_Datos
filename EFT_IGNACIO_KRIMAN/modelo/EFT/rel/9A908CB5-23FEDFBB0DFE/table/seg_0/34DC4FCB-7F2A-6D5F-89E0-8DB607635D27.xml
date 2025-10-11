@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34DC4FCB-7F2A-6D5F-89E0-8DB607635D27" name="JEFE_TURNO">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>A73F4AF2-0C11-0388-7B4B-42A14D9CA385</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="area_Resp" id="9E6A9B03-E06A-A485-834D-C201FA96ADA2">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[-- area de responosabilidad]]></commentInRDBMS>
+<generatorID>E0389BBE-D423-1096-0D8B-5BB61F0B9C9B</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="operarios_Max" id="E7600122-F28B-721F-3AF4-AF45510B353C">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[--  numero maximo de operarios a coordinar por turno]]></commentInRDBMS>
+<generatorID>6C75086F-A9FC-5C7C-D61E-015890EFD7AC</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_empleado" id="B8A29A45-DE23-DEEC-FE6E-47E385B80210">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>C942D036-2D2A-622B-7E7C-AF2AA3876201</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02EE94DF-FA3B-680B-9724-265871FBA540" referredColumn="181D9E20-2525-C112-6D7F-D65E23D27AAE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF589D16-85AC-CD1C-3203-A8202AF4861F" name="JEFE_TURNO_PK">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>7DE4BA07-4BD3-1D75-D646-4DD758299454</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8A29A45-DE23-DEEC-FE6E-47E385B80210"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13BDEC76-F275-14BF-2F92-B240DE27DC32" name="JEFE_TURNO__IDX">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<ownerDesignName>EFT</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C9382805-BE15-39F8-BCE4-18998DF493C2</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B8A29A45-DE23-DEEC-FE6E-47E385B80210"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D3F03C4-527B-BE6A-6FBE-A690003113F0" name="JEF_TUR_EMP_FK">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>C9382805-BE15-39F8-BCE4-18998DF493C2</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8A29A45-DE23-DEEC-FE6E-47E385B80210"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

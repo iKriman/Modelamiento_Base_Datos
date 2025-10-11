@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9FDED8B6-BF90-76E1-E924-0E344D8EE7D2" name="MANTENCION">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:54:45 UTC</createdTime>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_mantencion" id="79840C77-BC7D-A859-2D6C-D0DB5ACF1602">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:54:51 UTC</createdTime>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_prog" id="0368A55A-7482-B0BC-5767-AAE087DDF8F2">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:55:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[-- fecha programada]]></commentInRDBMS>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_ejec" id="A0719D15-0449-FD76-F586-F155107867DE">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:55:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[-- fecha ejecucion  si ya fue realizada]]></commentInRDBMS>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="04210201-C8BA-1DC9-5C0F-1ABB9782E266">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:56:09 UTC</createdTime>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_maquina" id="2BACCA2D-33F6-7C59-24F9-A5CFBFB6F1F4">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-08 05:03:18 UTC</createdTime>
+<generatorID>9BD32F2A-2D15-15AC-3150-776158106FF0</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<referedAttribute>A4E43572-B77A-B942-7E68-66A8FC598A98</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_empleado" id="67D44DB1-04E1-77C5-C834-89230F8F7A3B">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 16:00:32 UTC</createdTime>
+<generatorID>E125DCC5-3A77-EC16-022E-B0FEF9C306F1</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<referedAttribute>F342EF49-816E-9171-C63B-D3401782FA4A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DFD0769A-A2F3-F2E4-4178-4716B98E1D66" name="MANTENCION PK">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:55:02 UTC</createdTime>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>79840C77-BC7D-A859-2D6C-D0DB5ACF1602</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

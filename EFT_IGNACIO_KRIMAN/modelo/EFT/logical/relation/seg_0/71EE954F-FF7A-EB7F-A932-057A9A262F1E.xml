@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SAL_EMP" directorySegmentName="seg_0" id="71EE954F-FF7A-EB7F-A932-057A9A262F1E">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-08 05:06:27 UTC</createdTime>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<sourcePk>DF09AD97-C858-D647-1F4B-1B93844E85AA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F19D3275-088B-3605-DF1B-49FE75FDAB07</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FE5640F6-5BBC-F66D-58B6-58E9CFD1168A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

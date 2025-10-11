@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CEB89177-6639-538D-8920-C1F6A7171DC2" containerWithKeyObject="27ACFE69-9A91-D48B-CDF8-2803D7D8DD9E" localFKIndex="E255ABD8-B1EB-9566-3133-1378DC5A19C9" name="PLA_TUR_FK">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>C4B4EA3F-1F73-EEF7-6472-C29CD48BE2DA</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<referredTableLongName>TURNOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0A4E0D93-8E2B-69C3-7177-F3D8BCEEB00F</referredTableID>
+<keyObject>67D47A87-2ABD-E37A-1F74-D4B115DD53AE</keyObject>
+<referredKeyID>67D47A87-2ABD-E37A-1F74-D4B115DD53AE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_turno</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B8B1E93-A673-641E-A7F6-87169B116461" name="TEC_MANTENCION">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>5EA7C518-43D7-E87B-7108-4EF188A08F65</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="especialidad" id="ACF77DB5-D29F-60D2-F383-6C1EF11D5D60">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[por ejemplo: eléctrica, mecánica, instrumentación]]></commentInRDBMS>
+<generatorID>672065F1-D2C6-3726-7577-2D2ADFD79FB0</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="certificacion" id="AF071793-E5B8-3FAB-4FE7-65AC9A56409B">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[-- si es que aplica]]></commentInRDBMS>
+<generatorID>A36A8ACE-1E7C-420B-4288-35F9CBACF3E8</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tiem_respuesta" id="7EA0EED9-AF75-3306-B81B-AC8FCABF9F54">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>AD6F01DC-1245-5C8A-C333-1720DEB02FC7</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_empleado" id="10CEDDB4-8E37-B0E8-91A3-289D3C5DD627">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>F342EF49-816E-9171-C63B-D3401782FA4A</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E63FE5A-DE18-F067-F132-17943066C0FC" referredColumn="181D9E20-2525-C112-6D7F-D65E23D27AAE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DEEAB5B4-102E-5214-3BA0-230A2B0BB2D6" name="TEC_MANTENCION_PK">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>465EF369-6C5E-E48C-C07E-4D0A1239A37F</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10CEDDB4-8E37-B0E8-91A3-289D3C5DD627"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C2B99C7-1A2F-7CA0-4842-9BC54CEC1009" name="TEC_MANTENCION__IDX">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<ownerDesignName>EFT</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>42627784-0A15-6D48-04B4-B757A1DB2AA6</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="10CEDDB4-8E37-B0E8-91A3-289D3C5DD627"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6074BF04-014A-4B20-9765-A75FED5355B2" name="TEC_MAN_EMP_FK">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>42627784-0A15-6D48-04B4-B757A1DB2AA6</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10CEDDB4-8E37-B0E8-91A3-289D3C5DD627"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

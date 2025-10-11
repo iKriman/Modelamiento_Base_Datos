@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="13386A43-7731-6307-F742-ECDB83BEE8BA" name="MAQUINA">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:48:10 UTC</createdTime>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_maquina" id="A4E43572-B77A-B942-7E68-66A8FC598A98">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:48:48 UTC</createdTime>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="8E958727-859A-39F7-F962-BC887973E524">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:48:59 UTC</createdTime>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="activo" id="441B2F57-8DD9-276F-538A-EF7699EBAEEB">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:49:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[-- estado activo (S/N)]]></commentInRDBMS>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_planta" id="8069DC79-EE98-6747-4B91-E72A41C160BF">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-08 04:28:16 UTC</createdTime>
+<generatorID>69BA5A21-53A6-4A6D-E3BA-73C77C2181EC</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<referedAttribute>1E5E4DD4-01D2-EA67-BB22-D686CE0ABB56</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo" id="C5115C2A-5F35-6542-CB27-FE99B4CD2C55">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-08 04:28:26 UTC</createdTime>
+<generatorID>9BB626C3-21F4-6726-0CD0-CDE45803C0DC</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<referedAttribute>722720DB-1013-A659-6AFC-CD5238BEEA07</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E3629E24-9356-FED9-54B7-9DF2BBF3A9B8" name="MAQUINA PK">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-07 22:48:57 UTC</createdTime>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A4E43572-B77A-B942-7E68-66A8FC598A98</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

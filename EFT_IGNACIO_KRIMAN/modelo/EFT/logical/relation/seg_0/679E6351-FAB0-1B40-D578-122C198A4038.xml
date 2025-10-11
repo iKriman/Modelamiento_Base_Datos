@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REG_COM" directorySegmentName="seg_0" id="679E6351-FAB0-1B40-D578-122C198A4038">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-08 04:27:24 UTC</createdTime>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<sourcePk>ACA61E5D-7386-4819-3CA9-DBB7DAAB0CE5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1CD7004C-7B8B-26C6-D972-DB63970249B6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DFA60348-DE61-5D6A-2E7C-C27E02DFB611</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

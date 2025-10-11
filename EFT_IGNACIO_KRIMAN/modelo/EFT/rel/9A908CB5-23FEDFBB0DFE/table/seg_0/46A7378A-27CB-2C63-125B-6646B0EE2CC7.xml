@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="46A7378A-27CB-2C63-125B-6646B0EE2CC7" name="MAQUINA">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>13386A43-7731-6307-F742-ECDB83BEE8BA</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_maquina" id="B4EC8330-DE80-3035-868C-1E932BCA19B2">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>A4E43572-B77A-B942-7E68-66A8FC598A98</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="DC0023F3-25F9-CE27-E60A-1FA7D39F9E0D">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>8E958727-859A-39F7-F962-BC887973E524</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="activo" id="72FBB0B2-6B61-162B-1128-416BC0ECE2E3">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[-- estado activo (S/N)]]></commentInRDBMS>
+<generatorID>441B2F57-8DD9-276F-538A-EF7699EBAEEB</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_planta" id="D47E67A3-44AB-93E5-C764-4E5804E73288">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>8069DC79-EE98-6747-4B91-E72A41C160BF</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52A8B891-430C-2BAC-50CA-69B6EBE815AC" referredColumn="E33BCB8A-E384-5B7D-AC6A-ADB339FF5C92"/>
+</associations>
+</Column>
+<Column name="id_tipo" id="062BCB77-8E62-85D5-170F-17B9A5EC9CA3">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>C5115C2A-5F35-6542-CB27-FE99B4CD2C55</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC7D414A-99FC-A411-ED9C-AFE7E78A6D31" referredColumn="D3F75308-7673-17FF-140D-B13183E2AD8B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="456CCF2E-37E2-4AC9-9146-9B7DAEA5C0C9" name="MAQUINA_PK">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>E3629E24-9356-FED9-54B7-9DF2BBF3A9B8</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4EC8330-DE80-3035-868C-1E932BCA19B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="539D24A4-EF4C-D31A-88F5-88998E58D9AF" name="MAQ_PLA_FK">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>69BA5A21-53A6-4A6D-E3BA-73C77C2181EC</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D47E67A3-44AB-93E5-C764-4E5804E73288"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28D6B850-8B48-D300-D9DA-A756A515D555" name="MAQ_TIP_MAQ_FK">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-11 14:57:30 UTC</createdTime>
+<generatorID>9BB626C3-21F4-6726-0CD0-CDE45803C0DC</generatorID>
+<ownerDesignName>EFT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="062BCB77-8E62-85D5-170F-17B9A5EC9CA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

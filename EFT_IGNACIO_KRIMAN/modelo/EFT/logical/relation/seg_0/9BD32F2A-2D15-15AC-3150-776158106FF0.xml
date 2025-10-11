@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MAQ_MAN" directorySegmentName="seg_0" id="9BD32F2A-2D15-15AC-3150-776158106FF0">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-08 05:03:18 UTC</createdTime>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<sourcePk>E3629E24-9356-FED9-54B7-9DF2BBF3A9B8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>13386A43-7731-6307-F742-ECDB83BEE8BA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9FDED8B6-BF90-76E1-E924-0E344D8EE7D2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

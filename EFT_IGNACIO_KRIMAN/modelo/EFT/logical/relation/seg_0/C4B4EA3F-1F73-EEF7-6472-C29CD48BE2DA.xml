@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TUR_PLA" directorySegmentName="seg_0" id="C4B4EA3F-1F73-EEF7-6472-C29CD48BE2DA">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-08 05:00:53 UTC</createdTime>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<sourcePk>E1B8A4EE-C9CC-03BF-7D47-ECFCC70D29C2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BF1C6F94-1F57-D536-FADF-D90D3CA81FC5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3898E086-A96B-BB59-0604-3C0A747A5D2D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

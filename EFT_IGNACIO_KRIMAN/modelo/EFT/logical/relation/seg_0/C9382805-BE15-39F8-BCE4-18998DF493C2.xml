@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EMP_JEF" directorySegmentName="seg_0" id="C9382805-BE15-39F8-BCE4-18998DF493C2">
+<createdBy>ignac</createdBy>
+<createdTime>2025-10-08 05:01:59 UTC</createdTime>
+<ownerDesignName>EFT</ownerDesignName>
+<engineerTo>
+<item key="9A908CB5-A433-6177-C250-23FEDFBB0DFE" value="true"/>
+</engineerTo>
+<sourcePk>8A6BF42B-8BC9-CB69-7E43-3727A0876249</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FE5640F6-5BBC-F66D-58B6-58E9CFD1168A</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A73F4AF2-0C11-0388-7B4B-42A14D9CA385</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
